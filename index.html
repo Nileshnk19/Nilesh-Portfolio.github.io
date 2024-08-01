@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilesh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Nilesh</span>Kurbet</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#experience-education">Experience/Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact Me</a>
+        </nav>
+
+        <a href="https://drive.google.com/file/d/1YqgtxCGbd1ZJ2cwCasux-CYZbxsvow8-/view?usp=drive_link" class="resume">Download Resume</a>
+    </header>
+
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello,</h3>
+            <h1>I'm <span>Nilesh<br></span>Frontend Developer</h1>
+            <p>I specialize in creating dynamic and beautiful cross-platform applications. Let's build something amazing together!!!.</p>
+        
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="assets\image.jpeg" alt="myPic">
+        </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <!-- <div class="about-img">
+            <img src="assets\image.jpeg" alt="">
+        </div> -->
+
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <p>I am a dedicated Frontend Developer with a knack for crafting visually appealing and user-friendly websites. My technical skills include front-end development with Java, Kotlin, and Flutter as well as proficiency in frameworks like Android SDK, iOS SDK and Flutter SDK. I have hands-on experience with tools such as Android Studio, Figma, and Xcode  and I am familiar with databases like Firebase and MongoDB. Let's connect and create something extraordinary!</p>
+            <a href="#experience-education" class="btn-2">Experience</a>
+        </div>
+    </section>
+
+    <section id="experience-education" class="experience-education">
+        <h2 class="section-heading">Experience & Education</h2>
+        <div class="container">
+            <div class="experience-container">
+                <h3 class="subsection-heading">Experience</h3>
+                <div class="experience-item">
+                    <h4>UI/UX Intern</h4>
+                    <h5>Kintu Design Pvt Ltd.</h5>
+                    <p class="date">December 2022 - May 2023</p>
+                    <ul>
+                        <li>Starting from scratch to create initial design blueprints for the user interface of a learning application.</li>
+                        <li>Transforming the preliminary sketches into wireframes to serve as the foundation of the application.</li>
+                        <li>Developing flow diagrams to illustrate the interaction within the app.</li>
+                        <li>Incorporating transitions between screens for specific user interactions</li>     
+                    </ul>
+                </div>
+            </div>
+            <div class="education-container">
+                <h3 class="subsection-heading">Education</h3>
+                <div class="education-scroll">
+                    <div class="education-item">
+                        <h4>Post Graduate in Mobile Application Development and Strategy</h4>
+                        <h5>George Brown College</h5>
+                        <p class="date">January 2024 - December 2024</p>
+                        <ul>
+                            <li>Relevant coursework: Web Development, User Interface Design, Database Management</li>
+                            <li>GPA: 3.8/4.0</li>
+                        </ul>
+                    </div>
+                    <div class="education-item">
+                        <h4>Bachelor of Technology in Information and Communication Technology</h4>
+                        <h5>Uka Tarsadia University</h5>
+                        <p class="date">August 2019 - May 2023</p>
+                        <ul>
+                            <li>Graduated with honors</li>
+                            <li>GPA: 7.28/10.0</li>
+                        </ul>
+                    </div>
+                    <!-- Add more education items here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-heading">Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <a href="https://github.com/Nileshnk19/Online-Tutorial-App" target="_blank">
+                <img src="assets/NatureWalk.jpg" alt="Project 1">
+                <h3>NatureWalk App</h3>
+                <p>An iOS application for a recreation facility that promotes guided group nature walk sessions in a city. The app allows users to login, view available sessions, select a session to view details, share session information, add sessions to their favorites list, purchase tickets, view purchased tickets, and maintain their profile. The app also has Cloud Firestore for data persistence, FirebaseAuth for user authentication, and implement a login screen with a Remember Me feature. Along with that it also consists a user-friendly interface with bottom tab views and toolbar items for easy navigation.</p>
+                </a>    
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/aatish70468/Project_G06" target="_blank">
+                <img src="assets/students.jpg" alt="Project 2">
+                <h3>Online Video Tutorial App</h3>
+                <p>A mobile app for an online education company that provides a video tutorial series for learners. The displays a list of video lessons, allow users to view a video, and track which lessons have been completed. The app consists of four screens: Enter Your Name, Welcome Back, Lessons List, and Lesson Details. The navigation flow starts with the Enter Your Name screen, where users enter their name and proceed to the Lessons List screen. The Lessons List screen displays a RecyclerView of lessons, and the Lesson Details screen shows detailed information about a specific lesson, including a link to the lesson. Users can mark a lesson as completed and the app will remember their progress using SharedPreferences. Data storage is implemented with SharedPreferences and the (key,value) pairs should be designed for easy data retrieval.</p>
+                </a>    
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/Nileshnk19/Property-Rental-App" target="_blank">
+                <img src="assets/property.jpeg" alt="Project 3">
+                <h3>Property Rental App</h3>
+                <p>Embark on a digital journey with two Android apps, Landlord and Renter, for renting properties. The Landlord app allows property owners to create and manage listings, while the Renter app enables users to search and filter properties, add to watchlists, and view details. Both apps utilize Firebase Firestore for data storage and Firebase Authentication for user login and logout operations.                    .</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contact-card">
+    <h2 class="contact-me">Contact<span>Me</span></h2>
+    <div class="card">
+        <h3>Get in Touch</h3>
+        <p>If you have any questions or would like to discuss a project, feel free to reach out!</p>
+        <div class="contact-info">
+            <div class="info-item">
+                <i class='bx bx-envelope'></i>
+                <p>Email: <a href="mailto:your-email@example.com">kurbetn45@gmail.com</a></p>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-phone'></i>
+                <p>Phone: <a href="tel:+1234567890">+1 437-808-6348</a></p>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-map'></i>
+                <p>Location: Toronto, Ontario, Canada</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="social">
+            <a target="blank" href="https://www.facebook.com/profile.php?id=100006568236710"><i class='bx bxl-facebook-circle'></i></a>
+            <a target="blank" href="https://www.linkedin.com/in/nilesh-kurbet-709210183/"><i class='bx bxl-linkedin-square' ></i></a>
+            <a target="blank" href="https://www.instagram.com/_nilesh_nk__19/?hl=en"><i class='bx bxl-instagram' ></i></a>
+        </div>
+            <p class="copyright">@2024 Nilesh Kurbet | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
